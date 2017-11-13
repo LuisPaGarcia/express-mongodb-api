@@ -1,0 +1,16 @@
+{
+  "name": "express-handlebars-jwt",
+  "version": "1.0.0",
+  "description": "Mongodb api with express, handlebars and jwt",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "testdb": "node ./api-rest/index mlabuser"
+  },
+  "author": "@diganluispa <luispa@geekdeguatemala.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.1"
+  }
+}
